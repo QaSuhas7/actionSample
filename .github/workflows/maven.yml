@@ -24,7 +24,7 @@ jobs:
         cache: maven
 
     - name: Build with Maven and run tests
-      run: mvn -B clean package --file pom.xml
+      run: mvn -B clean test package --file pom.xml
 
     # Upload test results
     - name: Upload Surefire Test Results
