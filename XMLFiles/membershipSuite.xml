@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="membershipSuite.xml">
+<listeners>
+	<listener class-name="org.home.listener.ExtentITestListenerAdapter"></listener>
+	<listener class-name="org.home.listener.AnnotationTransformer"></listener>
+	<listener class-name="org.aia.utility.CustomTestNGReport"></listener>
+</listeners>
+  <test  name="Membership suite Test">
+    <classes>
+      <class name="org.aia.testcases.membership.TestProcessException_Membership"/>
+      <class name="org.aia.testcases.membership.TestOfflineJoin_Membership"/>
+      <class name="org.aia.testcases.membership.TestOfflineRejoin_Membership"/>
+      <class name="org.aia.testcases.membership.TestOfflineRenew_Membership"/>
+      <class name="org.aia.testcases.membership.TestMVO_Membership"/>
+      <class name="org.aia.testcases.membership.TestAutoRenewMemberShip"/>
+      <class name="org.aia.testcases.membership.TestSignUpFlows_Membership"/>
+     <!--  <class name="org.aia.testcases.membership.TestRenew_Membership"/>
+      <class name="org.aia.testcases.membership.TestReJoin_Membership"/>
+      <class name="org.aia.testcases.membership.TestJoin_Membership"/>
+      <class name="org.aia.testcases.membership.TestTransferApplicationProcess_Membership"/>
+      <class name="org.aia.testcases.membership.TestMembershipUpgradeRequest"/>
+      <class name="org.aia.testcases.membership.TestCertificateComponents_Membership"/> -->
+
+     </classes>
+  </test> <!-- Test -->
+</suite> <!-- All Test cases -->

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="membershipSample.xml">
+<listeners>
+	<listener class-name="org.home.listener.ExtentITestListenerAdapter"></listener>
+	<listener class-name="org.home.listener.AnnotationTransformer"></listener>
+	<listener class-name="org.aia.utility.CustomTestNGReport"></listener>
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="org.aia.testcases.membership.TestAutoRenewMemberShip"/>
+      <class name="org.aia.testcases.membership.TestRenew_Membership"/>
+      <class name="org.aia.testcases.membership.TestZeroSalesOrder_Membership"/>
+      <class name="org.aia.testcases.membership.TestDIPOfflineJoin_Membership"/>
+      <class name="org.aia.testcases.membership.TestOfflineRenew_Membership"/>
+      <class name="org.aia.testcases.membership.TestEmailChangeRequest_Membership"/>
+      <class name="org.aia.testcases.membership.TestDIPOfflineRenew_Membership"/>
+      <class name="org.aia.testcases.membership.TestDIPRenew_Membership"/>
+      <class name="org.aia.testcases.membership.TestReJoin_Membership"/>
+      <class name="org.aia.testcases.membership.TestMembershipUpgradeRequest"/>
+      <class name="org.aia.testcases.membership.TestOfflineJoin_Membership"/>
+      <class name="org.aia.testcases.membership.TestSignUpFlows_Membership"/>
+      <class name="org.aia.testcases.membership.TestOfflineRejoin_Membership"/>
+      <class name="org.aia.testcases.membership.TestDIPRejoin_Membership"/>
+      <class name="org.aia.testcases.membership.TestDIPJoin_Membership"/>
+      <class name="org.aia.testcases.membership.TestDeceasedMarkingProcess_Membership"/>
+      <class name="org.aia.testcases.membership.TestMVO_Membership"/>
+      <class name="org.aia.testcases.membership.TestCheckDuplicateSO_Membership"/>
+      <class name="org.aia.testcases.membership.TestProcessException_Membership"/>
+      <class name="org.aia.testcases.membership.TestJoin_Membership"/>
+      <class name="org.aia.testcases.membership.TestTransferApplicationProcess_Membership"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- membershipSample -->

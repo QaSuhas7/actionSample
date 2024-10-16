@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="cesSuite.xml">
+<listeners>
+	<listener class-name="org.home.listener.ExtentITestListenerAdapter"></listener>
+	<listener class-name="org.home.listener.AnnotationTransformer"></listener>
+	<listener class-name="org.aia.utility.CustomTestNGReport"></listener>
+</listeners>
+  <test  name="Test">
+    <classes>
+        <class name="org.aia.testcases.ces.TestProviderAppTab_CES"/>
+     <!--  <class name="org.aia.testcases.ces.TestPointsofContacts_CES"/> -->
+      <class name="org.aia.testcases.ces.TestRenewArchitectureEcheck_CES"/>
+  <!--     <class name="org.aia.testcases.ces.TestProviderStatementTab_CES"/>
+      <class name="org.aia.testcases.ces.TestArchitectureFirmWithoutSPOC_CSE"/>
+      <class name="org.aia.testcases.ces.TestGracePeriod_CES"/>
+      <class name="org.aia.testcases.ces.TestDiscountCode_CES"/>
+      <class name="org.aia.testcases.ces.TestCESMembershipStatus_CES"/>
+      <class name="org.aia.testcases.ces.TestLoginAsExperienceUser"/>
+      <class name="org.aia.testcases.ces.TestRenewEligibleFields_CES"/>
+      <class name="org.aia.testcases.ces.TestPoCTab_CES"/>
+      <class name="org.aia.testcases.ces.TestSubscriptionTab_CES"/>
+      <class name="org.aia.testcases.ces.TestRapidOrderEntry_CES"/> -->
+      <class name="org.aia.testcases.ces.TestJoinArchitectureFirm_CES"/>
+      <class name="org.aia.testcases.ces.TestJoinPassport_CES"/>
+      <class name="org.aia.testcases.ces.TestLogin_CES"/>
+      <class name="org.aia.testcases.ces.TestRenewPassport_CES"/>
+      <class name="org.aia.testcases.ces.TestRenewProfessional_CES"/>
+      <class name="org.aia.testcases.ces.TestORGTab_CES"/>
+      <!-- <class name="org.aia.testcases.ces.TestAccountAssociated_CES"/> -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

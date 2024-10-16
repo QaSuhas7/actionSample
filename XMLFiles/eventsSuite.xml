@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="eventsSuite.xml">
+<listeners>
+	<listener class-name="org.home.listener.ExtentITestListenerAdapter"></listener>
+	<listener class-name="org.home.listener.AnnotationTransformer"></listener>
+	<listener class-name="org.aia.utility.CustomTestNGReport"></listener>
+</listeners>
+	<test thread-count="1" parallel="classes" name="Test">
+		<classes>
+		    <!--<class name="org.aia.testcases.events.TestClone_EventsWLSTemplate"></class>-->
+			<class name="org.aia.testcases.events.Test_Clone_EventTemplateMedium"></class>
+			<class name="org.aia.testcases.events.Test_CloneTicketsInMediumTemplate"></class>
+			<class name="org.aia.testcases.events.Test_CloneVenuesInMediumTemplate"></class>
+			<class name="org.aia.testcases.events.TestEmailAllAttendees"></class> 
+			<class name="org.aia.testcases.events.Test_DeleteEvent"></class> 
+		<!--<class name="org.aia.testcases.events.CloneEventCreate_End_To_End_flow"></class>-->
+		</classes>
+	</test> 
+</suite> 
