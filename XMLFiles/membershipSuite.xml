@@ -15,12 +15,12 @@
       <class name="org.aia.testcases.membership.TestMVO_Membership"/>
       <class name="org.aia.testcases.membership.TestAutoRenewMemberShip"/>
       <class name="org.aia.testcases.membership.TestSignUpFlows_Membership"/>
-     <!--  <class name="org.aia.testcases.membership.TestRenew_Membership"/>
+      <class name="org.aia.testcases.membership.TestRenew_Membership"/>
       <class name="org.aia.testcases.membership.TestReJoin_Membership"/>
       <class name="org.aia.testcases.membership.TestJoin_Membership"/>
       <class name="org.aia.testcases.membership.TestTransferApplicationProcess_Membership"/>
       <class name="org.aia.testcases.membership.TestMembershipUpgradeRequest"/>
-      <class name="org.aia.testcases.membership.TestCertificateComponents_Membership"/> -->
+      <class name="org.aia.testcases.membership.TestCertificateComponents_Membership"/>
 
      </classes>
   </test> <!-- Test -->
